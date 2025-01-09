@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gilbert Personal Portfolio</title>
+    <link rel="stylesheet" href="dist/main.css">
+
+
+<!-- CSS Nav bar, hover and backorund color effect -->
+    <style>
+.header-content-menu a {
+    position: relative; /* Required for the pseudo-element */
+    text-decoration: none; /* Remove underline */
+}
+
+.header-content-menu a::after {
+    content: ''; /* Pseudo-element for underline */
+    position: absolute; /* Position it below the link */
+    left: 0; /* Align with the left edge */
+    bottom: 0; /* Position at the bottom */
+    height: 2px; /* Height of the underline */
+    width: 100%; /* Full width */
+    background-color: #684FFF; /* Your desired purple color */
+    transform: scaleX(0); /* Initially scale down */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.header-content-menu a:hover::after {
+    transform: scaleX(1); /* Scale to full width on hover */
+}
+
+
+
+    </style>
+     <!-- Shopify Logo Favicon -->
+     <link rel="icon" href="https://img.icons8.com/?size=100&id=zFAQPgmSWgd7&format=png&color=000000" type="image/png">
+    </head>
+
+<!-- EMAIL JS SCRIPT  -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function() {
+      emailjs.init("zq79H8A73CvDYFsNZ"); // Replace with your actual EmailJS public key.
+   })();
+</script>
+
+
+
+ 
+
+
+
+
+
+
+
+<body>
+   <!-- Header Section Starts Here-->
+   <section class="header">
+       <div class="container">
+           <div class="header-content">
+               <a href="#" class="logo">
+                   <img src="" alt="">
+               </a>
+               <div class="header-content-menu">
+                   <ul>
+                       <li><a href="#about">About</a></li>
+                       <li><a href="#services">Services</a></li>
+                       <li><a href="#works">Works</a></li>
+                       <li><a href="#contact">Contact</a></li>
+                   </ul>
+               </div>
+           </div>
+       </div>
+   </section>
+   <!-- Header Section Ends Here-->
+
+
+
+
+
+    
+   <!-- Banner Section Starts Here-->
+   <section class="banner">
+    <div class="container">
+        <div class="banner-content">
+            <div class="row">
+                <div class="col-lg-6 order-2 order-lg-0">
+                    <div class="banner-content-left">
+                        <h3 class="font-xl">Hello, I’m Gilbert, a Software Developer/ 
+                           <span class="shopify-expert">
+                            Shopify Expert
+                        </span>
+
+                        </h3>
+                        <p>I specialize in building and customizing Shopify stores that provide excellent user experiences. I’ve worked with a variety of businesses, from startups to growing brands, to create optimized, user-friendly, and scalable Shopify solutions.</p>
+                            <a href="#contact" class="btn btn--primary">
+                                Let's Work Together!
+                            </a>
+                            <a href="#works" class="btn btn--secondary">
+                                View work
+                            </a>
+                            <div class="follow-content">
+                                <strong>Follow me on</strong>
+
+
+
+
+                                <div class="follow-content-social">
+                                  
+
+        <!-- LINKEIND LINK  -->
+                                     
+                                    
+                                    <a href="https://www.linkedin.com/in/gilberto-reyes-9695531ab" class="social social-square">
+
+                                        <img src="https://img.icons8.com/?size=100&id=44019&format=png&color=000000" alt="LinkedIn" width="40" height="40">
+        <g clip-path="url(#clip0)">
+        <path d="M20 3.79875C19.2563 4.125 18.4637 4.34125 17.6375 4.44625C18.4875 3.93875 19.1363 3.14125 19.4412 2.18C18.6488 2.6525 17.7738 2.98625 16.8412 3.1725C16.0887 2.37125 15.0162 1.875 13.8462 1.875C11.5763 1.875 9.74875 3.7175 9.74875 5.97625C9.74875 6.30125 9.77625 6.61375 9.84375 6.91125C6.435 6.745 3.41875 5.11125 1.3925 2.6225C1.03875 3.23625 0.83125 3.93875 0.83125 4.695C0.83125 6.115 1.5625 7.37375 2.6525 8.1025C1.99375 8.09 1.3475 7.89875 0.8 7.5975C0.8 7.61 0.8 7.62625 0.8 7.6425C0.8 9.635 2.22125 11.29 4.085 11.6712C3.75125 11.7625 3.3875 11.8062 3.01 11.8062C2.7475 11.8062 2.4825 11.7913 2.23375 11.7362C2.765 13.36 4.2725 14.5538 6.065 14.5925C4.67 15.6838 2.89875 16.3412 0.98125 16.3412C0.645 16.3412 0.3225 16.3263 0 16.285C1.81625 17.4563 3.96875 18.125 6.29 18.125C13.835 18.125 17.96 11.875 17.96 6.4575C17.96 6.27625 17.9538 6.10125 17.945 5.9275C18.7588 5.35 19.4425 4.62875 20 3.79875Z" fill="currentColor"/>
+        </g>
+        <defs>
+        <clipPath id="clip0">
+        <rect width="20" height="20" fill="currentColor"/>
+        </clipPath>
+        </defs>        
+                                    </a>
+
+                                <!-- linkedin link ends -->
+                                </div>
+                            </div>                
+                </div>
+                </div>
+
+                <div class="col-lg-6 order-1 order-lg-0">
+                    <div class="banner-content-right">
+                        <img src="dist/images/gilbert.jpg" alt="banner-img">
+                        <img class="dot-shadow-img" src="dist/images/dot-shadow-img.png" alt="dot-shadow">
+                    </div>
+                </div>
+            <!-- </div> -->
+        </div>
+    </div>
+   </section>
+   <!-- Banner Section Ends Here-->
+
+
+
+
+
+
+   <!-- About Section Starts Here-->
+   <section id="about">
+
+   <section class="about">
+       <div class="container">
+          <div class="about-content">
+              <div class="row">
+                  <div class="col-lg-6 col-sm-12">
+                    <div class="about-content-left">
+                        <img class="about-img" src="dist/images/Gilbert 3.png" alt="about-img">
+                        <!-- <img class="about-white-shadow" src="dist/images/about-white-shadow.png" alt="shadow"> -->
+                        <img class="about-black-dot" src="dist/images/black-dot.png" alt="dot-shape">
+                        <img class="lg-round-shape" src="dist/images/lg-round-shape.png" alt="shape">
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-sm-12">
+                    <div class="about-content-right">
+                        <h3 class="font-md">
+                            <img src="https://img.icons8.com/?size=100&id=zFAQPgmSWgd7&format=png&color=000000" alt="Shopify Logo" style="width: 65px; height: 65px; vertical-align: middle; margin-right: 8px;">
+                            Shopify Specialist
+                        </h3>
+                        
+                        <p class="para-2">I focus on developing and optimizing Shopify stores to meet the unique needs of each business. From small startups to established brands, I help create e-commerce platforms that are intuitive, responsive, and designed to drive conversions. My expertise lies in delivering Shopify solutions that are not only visually appealing but also highly functional, scalable, and optimized for growth.</p>
+                        <div class="project-document">
+                            <div class="project-year">
+                                <h2 class="font-lg">2+</h2>
+                                <span class="para-2">Years of
+                                  Experience
+                              </span>
+                            </div>
+                            <div class="project-completed">
+                                <h2 class="font-lg">10+</h2>
+                                <span class="para-2">Completed
+                                  Projects</span>
+                            </div>
+                        </div>
+                        <a href="assets/Gilbert CV.docx" class="btn btn--primary" download>
+                          Download CV             
+                          <svg width="33" height="24" viewBox="0 0 33 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M31 12.025H1" stroke="#DFE3EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                          <path d="M25.9502 6.00006L32.0002 12.0241L25.9502 18.0491" stroke="#DFE3EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                          </svg>    
+                      </a>
+                    </div>
+                  </div>
+              </div>
+          </div>
+       </div>
+
+
+   </section>
+   <!-- About Section Ends Here-->
+
+
+
+
+
+
+  <!-- Service Section Starts Here-->
+  <section id="services">
+
+<section class="service">
+    <div class="container">
+        <div class="service-text">
+            <h4 class="font-sm">My Service
+                <div class="deep-dot"></div>
+            </h4>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="service-content-area">
+                    <div class="layer-svg">            
+                        <!-- Logo for Theme Development Service -->
+                        <img src="https://img.icons8.com/?size=100&id=48250&format=png&color=000000" alt="Theme Development Logo" width="80" height="80"> 
+                    </div> 
+                    <p class="font-xs">  Theme </p>
+                    <p class="font-xs">  Development </p>             
+                    <span class="light-dot"></span>
+                    <a href="#contact" class="right-arrow-icon">               
+                        <span>Discuss now</span>                    
+                        <svg width="36" height="24" viewBox="0 0 36 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M33 12.03H3" stroke="#0A1931" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M27.95 4.80005L34 12.0288L27.95 19.2588" stroke="#0A1931" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </a>
+                </div>  
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="service-content-area">
+                    <div class="layer-svg">            
+                        <!-- Logo for Store Migration Service -->
+                        <img src="https://img.icons8.com/?size=100&id=77111&format=png&color=000000" alt="Store Migration Logo" width="80" height="80"> 
+                    </div> 
+                    <p class="font-xs">  Store </p>
+                    <p class="font-xs">  Migration </p>             
+                    <span class="light-dot"></span>
+                    <a href="#contact" class="right-arrow-icon">               
+                        <span>Discuss now</span>                    
+                        <svg width="36" height="24" viewBox="0 0 36 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M33 12.03H3" stroke="#0A1931" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M27.95 4.80005L34 12.0288L27.95 19.2588" stroke="#0A1931" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </a>
+                </div>  
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="service-content-area">
+                    <div class="layer-svg">            
+                        <!-- Logo for Shopify App Integration Service -->
+                        <img src="https://img.icons8.com/?size=100&id=zFAQPgmSWgd7&format=png&color=000000" alt="Shopify App Integration Logo" width="80" height="80"> 
+                    </div> 
+                    <p class="font-xs">  Shopify App </p>
+                    <p class="font-xs">  Integration </p>             
+                    <span class="light-dot"></span>
+                    <a href="#contact" class="right-arrow-icon">               
+                        <span>Discuss now</span>                    
+                        <svg width="36" height="24" viewBox="0 0 36 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M33 12.03H3" stroke="#0A1931" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M27.95 4.80005L34 12.0288L27.95 19.2588" stroke="#0A1931" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </a>
+                </div>  
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                
+                <div class="service-content-area">
+                    <div class="layer-svg">            
+                        <!-- Logo for SEO Optimization Service -->
+                        <img src="https://img.icons8.com/?size=100&id=43594&format=png&color=000000" alt="SEO Optimization Logo" width="80" height="80"> 
+                    </div> 
+                    <p class="font-xs">  SEO </p>
+                    <p class="font-xs">  Optimization </p>             
+                    <span class="light-dot"></span>
+                    <a href="#contact" class="right-arrow-icon">               
+                        <span>Discuss now</span>                    
+                        <svg width="36" height="24" viewBox="0 0 36 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M33 12.03H3" stroke="#0A1931" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M27.95 4.80005L34 12.0288L27.95 19.2588" stroke="#0A1931" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </a>
+                </div>  
+            </div>
+        </div>
+    </div>
+</section>
+
+</section>
+
+
+<!-- Service Section Ends Here -->
+
+
+
+   <!-- Project Section Starts Here-->
+   <section id="works">
+
+    <section class="project">
+        <div class="container">
+            <h4 class="font-sm">My Selected Work
+                <div class="deep-dot"></div>
+            </h4>
+
+
+            <!-- Two Clothes link -->
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 project-content">
+                 <div class="project-work">
+                     <div class="project-work-image">
+                         <img src="dist/images/twoclothes.PNG" alt="width="300" height="375"">
+                     </div>
+                     <div class="project-work-text">
+                         <h5 class="font-mini"><a href="https://www.loom.com/share/3c050c3e28174cebadbafa7c04f60c2f?sid=aa95a56a-24fc-4f2f-880a-b959c9071805">Two Clothes Store</a></h5>
+                         <a href="https://www.loom.com/share/3c050c3e28174cebadbafa7c04f60c2f?sid=aa95a56a-24fc-4f2f-880a-b959c9071805" class="right-arrow-icon">               
+                             <span>View Project</span>                    
+                             <svg width="36" height="24" viewBox="0 0 36 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M33 12.03H3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 <path d="M27.95 4.80005L34 12.0288L27.95 19.2588" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                  </svg>
+                         </a>
+                     </div>
+                 </div>
+                </div>
+
+
+
+
+                <!-- Slate Coffee link -->
+                <div class="col-lg-4 col-md-6 col-sm-12 project-content">
+                    <div class="project-work">
+                        <div class="project-work-image">
+                            <img src="dist/images/slate coffee.PNG" alt="width="300" height="375"">
+                        </div>
+                        <div class="project-work-text">
+                            <h5 class="font-mini"><a href="https://www.loom.com/share/87e3d59b3fbf4e29851a7d39bfcd97ed?sid=786e1e1b-60cc-4022-bcde-35cdb3b266dc"> Slate Coffee Store</a></h5>
+                            <a href="https://www.loom.com/share/87e3d59b3fbf4e29851a7d39bfcd97ed?sid=786e1e1b-60cc-4022-bcde-35cdb3b266dc" class="right-arrow-icon">               
+                                <span>View Project</span>                    
+                                <svg width="36" height="24" viewBox="0 0 36 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M33 12.03H3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M27.95 4.80005L34 12.0288L27.95 19.2588" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                     </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <!-- VR Landing Page Link -->
+                <div class="col-lg-4 col-md-6 col-sm-12 project-content">
+                    <div class="project-work">
+                        <div class="project-work-image">
+                            <img src="dist/images/virtualr.PNG" alt="width="300" height="375"">
+                        </div>
+                        <div class="project-work-text">
+                            <h5 class="font-mini"><a href="https://www.loom.com/share/69d30e06bc6c4bffaea7fb3dcfc7abe8?sid=167201e6-2409-49e4-a922-008a7e22b188">VR Landing Page</a></h5>
+                            <a href="https://www.loom.com/share/69d30e06bc6c4bffaea7fb3dcfc7abe8?sid=167201e6-2409-49e4-a922-008a7e22b188" class="right-arrow-icon">               
+                                <span>View Project</span>                    
+                                <svg width="36" height="24" viewBox="0 0 36 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M33 12.03H3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M27.95 4.80005L34 12.0288L27.95 19.2588" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                     </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-4 col-md-6 col-sm-12 project-content">
+                    <div class="project-work">
+                        <div class="project-work-image">
+                            <img src="dist/images/project-img-2.jpg" alt="">
+                        </div>
+                        <div class="project-work-text">
+                            <h5 class="font-mini"><a href="#">Huma Marketing Agency</a></h5>
+                            <a href="#" class="right-arrow-icon">               
+                                <span>View Project</span>                    
+                                <svg width="36" height="24" viewBox="0 0 36 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M33 12.03H3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M27.95 4.80005L34 12.0288L27.95 19.2588" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                     </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 project-content">
+                    <div class="project-work">
+                        <div class="project-work-image">
+                            <img src="dist/images/project-img-1.jpg" alt="">
+                        </div>
+                        <div class="project-work-text">
+                            <h5 class="font-mini"><a href="#">Huma Marketing Agency</a></h5>
+                            <a href="#" class="right-arrow-icon">               
+                                <span>View Project</span>                    
+                                <svg width="36" height="24" viewBox="0 0 36 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M33 12.03H3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M27.95 4.80005L34 12.0288L27.95 19.2588" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                     </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                    <div class="project-work">
+                        <div class="project-work-image">
+                            <img src="dist/images/project-img-2.jpg" alt="">
+                        </div>
+                        <div class="project-work-text">
+                            <h5 class="font-mini"><a href="#">Huma Marketing Agency</a></h5>
+                            <a href="#" class="right-arrow-icon">               
+                                <span>View Project</span>                    
+                                <svg width="36" height="24" viewBox="0 0 36 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M33 12.03H3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M27.95 4.80005L34 12.0288L27.95 19.2588" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                     </svg>
+                            </a>
+                        </div> -->
+                    </div>
+                </div>
+    </section>
+</section>
+   <!-- Project Section Ends Here-->
+
+
+  
+
+
+
+    <!-- Contacts Section Starts Here -->
+<section id="contact">
+    <section class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                  <div class="contact-area-info">
+                      <h3 class="font-xs">Let me know here.</h3>
+                      <div class="contact-form">
+                          <!-- Updated form to include proper attributes for EmailJS -->
+                          <form id="contact-form">
+                              <div class="top-input">
+                                  <!-- Added 'id' attributes for EmailJS field mapping -->
+                                  <input type="text" id="name" name="name" placeholder="Full name" required>
+                                  <input type="email" id="email" name="email" placeholder="Email address" required>
+                              </div>
+                              <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                              <textarea name="message" id="message" cols="70" rows="10" placeholder="Message" required></textarea>
+                              <!-- Changed 'a' tag to 'button' for proper form submission -->
+                              <button type="submit" class="btn btn--primary">
+                                 Send message
+                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                     <path d="M22 2L11 13" stroke="#DFE3EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                     <path d="M22 2L15 22L11 13L2 9L22 2Z" stroke="#DFE3EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 </svg>
+                              </button>
+                          </form>
+                      </div>
+                  </div>  
+                </div>
+ 
+
+
+                <!-- Get in Touch -->
+                <div class="col-lg-6">
+                    <div class="contact-area-location">
+                        <h3 class="font-xs">Get In Touch</h3>
+                        <div class="contact-location-icon">
+                           
+                                <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5.33329 5.66699H26.6666C28.1333 5.66699 29.3333 6.86699 29.3333 8.33366V24.3337C29.3333 25.8003 28.1333 27.0003 26.6666 27.0003H5.33329C3.86663 27.0003 2.66663 25.8003 2.66663 24.3337V8.33366C2.66663 6.86699 3.86663 5.66699 5.33329 5.66699Z" stroke="#684FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M29.3333 8.3335L16 17.6668L2.66663 8.3335" stroke="#684FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                            <div class="location-text">
+                                <span class="para-2">gilbertoreyes052@gmail.com</span>
+                            </div>
+                        </div>
+ 
+                        <!-- Social Media -->
+                        <div class="bottom-social-icon">
+                            <a href="https://www.linkedin.com/in/gilberto-reyes-9695531ab" class="social social-square">
+                                <img src="https://img.icons8.com/?size=100&id=44019&format=png&color=000000" alt="LinkedIn" width="40" height="40">
+                            </a>
+                        </div>
+ 
+                        <div class="black-dot">
+                            <img src="dist/images/black-dot.png" alt="dot-shape">
+                        </div>
+                    </div>
+                </div>     
+            </div> 
+            <div class="round-shape">
+                <img src="dist/images/border-round-shape.png" alt="shape">
+            </div>
+            <div class="lg-round-shape">
+                <img src="dist/images/lg-round-shape.png" alt="">
+            </div>
+        </div>
+    </section>
+ </section>
+
+
+
+   <!-- Contacts  Section Ends Here-->
+
+
+
+
+
+   <!-- Footer  Section Starts Here-->
+   <div class="footer">
+    <div class="container">
+        <div class="footer-text">
+            <h4>© 2025 —  design &amp; develop by Gilberto reyes.
+            <a href="#"></a>
+            </h4>
+        </div>
+     </div>
+    </div>
+   <!-- Footer  Section Ends Here-->
+
+    <script src="dist/main.js"></script>
+</body>
+</html>
